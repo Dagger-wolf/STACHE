@@ -1,0 +1,26 @@
+.btn-primary{
+
+    font-size: 25px;
+
+}
+
+.btn-success:hover{
+
+    background-color: navy;
+
+}
+
+canvas{
+
+    animation-name: colors;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes colors{
+
+    from{box-shadow: 1px 1px 99999px green}
+    to{box-shadow: 1px 1px 57px red;}
+
+}
